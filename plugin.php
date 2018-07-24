@@ -21,7 +21,7 @@ http://frobnicate.foo/bar.
 yourls_add_action( 'loader_failed', 'oe_yourls_qrcode' );
 
 function oe_yourls_qrcode( $request ) {
-        require_once("user/plugins/yourls-tcpdf-qrcode/config.inc");
+        require_once("user/plugins/yourls-tcpdf-qrcode/config.inc.php");
         
         // Get authorized charset in keywords and make a regexp pattern
         $pattern = yourls_make_regexp_pattern( yourls_get_shorturl_charset() );
