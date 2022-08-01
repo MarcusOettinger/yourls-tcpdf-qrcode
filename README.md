@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+
 # yourls-tcpdf-qrcode
 A plugin for [YOURLS](http://yourls.org) that shows QR
 codes for short URLs using a local [TCPDF](http://tcpdf.org)
